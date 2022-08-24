@@ -1,0 +1,110 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.nav {
+  background-color:honeydew;
+  list-style: none;
+  display: flex;
+  justify-content: right; 
+  align-items: center;
+  height:30px;
+}
+
+.text{
+  display: flex;
+  margin-right: 690px;
+}
+.a  {
+  color:green;
+}
+
+.nav-item a {
+  padding:25px;
+  text-decoration: none;
+  color:black;
+
+}
+.nav-item:hover {
+  background-color: palegreen;
+  height: 30px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color:white;
+}
+
+img{
+  width:1535px;
+  height: 350px;; 
+}
+
+.centered {
+  position: absolute;
+  top: 20%;
+  right:30%;
+  font-size: 200%;
+  text-align: left;
+  font-size: 35px;
+}
+
+.bg{
+
+    background-color:green;
+    border: 1px solid;
+    color:white; 
+    padding: 10px 24px; 
+    cursor: pointer; 
+    position:absolute;
+    top: 230px;
+    right:930px;
+}
+
+.tab{
+  width: 700px;
+  height: 220px;
+  position:absolute;
+  left: 290px;
+  top: 520px;
+}
+
+.text2{
+  position:absolute;
+  left:500px;
+  color:white;
+  font-size: 30px;
+}
+
+.text3{
+  display: flex;
+  position:absolute;
+  left:550px;
+  top:425px;
+  color:lightgreen;
+  font-size: 19px;
+}
+
+.text4{
+  position: relative;
+  top: 120px;
+  left: 60px;
+  list-style-type:none;
+  font-size: 22px;
+}
+.para{
+  
+  color: white;
+  font-size: 12px;
+  position:absolute;
+  left: 400px;
+  padding-right: 400px;
+  bottom:240px;
+  text-align: center;
+}
